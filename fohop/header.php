@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-         <!--<link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
         <!-- Carousel themes-->
-        <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+        <link href="dist/transition-themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="assets/main.css" type="text/css">
+        <link rel="stylesheet" href="dist/css/main.css" type="text/css">
         <title>fohop-Fountain of Hope</title>
         
         <style type="text/css">
@@ -34,29 +34,36 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuButton" style="border-radius:0px;">
+                                <a class="dropdown-item" href="about.php">General</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="strategy.php">Strategic Approach</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="org-development.php">Organisation Developments</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="funding.php">Sources of Funding</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="org-structure.php">Organisation Structure</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="contacts.php">Contacts us</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Programs</a>
+                            <a class="nav-link" href="news.php">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="galley.php">Galley</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Galley</a>
+                            <a class="nav-link" href="events.php">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="blog">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Downloads</a>
+                            <a class="nav-link" href="downloads">Downloads</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">

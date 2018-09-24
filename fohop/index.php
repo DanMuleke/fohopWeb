@@ -7,7 +7,7 @@
                 <div id="slider">
                     <img src="img/slides/test2.png" alt="" width="100%"/>
                     <img src="img/slides/slide4.JPG" alt="" width="100%"/>
-                    <img src="img/slides/slide3.JPG" alt="" width="100%"/>
+                    <img src="img/slides/slide3.JPG" alt="" width="100%" alt=""/>
                     <img src="img/slides/slide2.JPG" alt="" width="100%"/>
                     <img src="img/slides/slide1.JPG" alt="" width="100%"/>
                 </div>
@@ -15,7 +15,7 @@
                     <h1 class="text-primary"> Our family is a weapon against GBV.</h1>
                 </div>
                 <div id="tm" style="display: none;">
-                    <h1 class="text-light"> Team members at Example workshop</h1>
+                    <h1 class="text-light"> Team members at visiting a strategic point in Blantyre rural; lunzu Manesi Kapeni</h1>
                 </div>
             </div>
         </div>
@@ -36,10 +36,10 @@
                     </p>
                     <p style="font-size:19px;">
                         The organisation was formed in 2011 by a group of four people after observing the challenges faced by the communities
-                        in Malawi. It is legally registered by the government of Malawi as well as Council for Non Governmental organisation 
-                        of Malawi (CONGOMA).<br>
+                        in Malawi. It is legally registered by the government of Malawi, The Council for Non Governmental organisation 
+                        of Malawi and  (CONGOMA).<br>
                         <span style="float:right; padding-right: 18px;">
-                            <a href="#" class="btn btn-sm btn-success">Read more</a>
+                            <a href="about.php" class="btn btn-sm btn-success">Read more</a>
                         </span>
                         
                     </p>
@@ -48,7 +48,8 @@
                     <img src="img/galley/5.jpg" width="110%" style="border: 2em solid azure">
                 </div>
             </div>
-            <br><br><br>
+            <br><br>
+            <!--
             <div class="row" style="text-align:center;">
                 <div class="col-sm-4">
                     <h3>Mission Statement</h3>
@@ -71,6 +72,7 @@
                     </p>
                 </div>
             </div>
+            -->
         </div>
 
         <div class="programs">
@@ -80,12 +82,18 @@
                         <h1>Our Programs</h1>
                         <div id="pointer"></div>
                     </div>
-                    <div class="col-sm-7" style="padding-left:15%">
+                    <div class="col-sm-7" style="padding-left:5%">
                         <ul class="programs-list" style="list-style-image: url('img/icons/icons8-checkmark-48.png')">
-                            <li style="padding: 3%;"><a href="#">Youths</a></li>
+                            <li style="padding: 3%;"><a href="#">Capacity building and good governance </a></li>
                             <li style="padding: 3%;"><a href="#">Hiv and Aids</a></li>
+                            <li style="padding: 3%;"><a href="#">Education,Child right and Ending early child marriage</a></li>
+                            <li style="padding: 3%;"><a href="#">Women and Girls Empowernment</a></li>
+                            <li style="padding: 3%;"><a href="#">Youths Empowernment and Entreprenuership</a></li>
                             <li style="padding: 3%;"><a href="#">Entreprenuership</a></li>
-                            <li style="padding: 3%;"><a href="#">Agriculture</a></li>
+                            <li style="padding: 3%;"><a href="#">food security and nutrition</a></li>
+                            <li style="padding: 3%;"><a href="#">Climate change and environment conservation</a></li>
+                            <li style="padding: 3%;"><a href="#">Water, Sanitation and hygien </a></li>
+                                                        
                         </ul>
                     </div>
                 </div>
@@ -102,13 +110,13 @@
         </div>
         
         <div class="container">
-            <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="10000">
                 <div class="carousel-inner row w-100 mx-auto" role="listbox">
                     <div class="carousel-item col-md-3  active">
                         <div class="card" style="border-radius:0px; border:0px;">
                             <div class="img-container">
                                 <img class="card-img-top" src="img/news/mercy.PNG" alt="News Image" style="border-radius:0px;">
-                                <div class="bottomleft">26 July 2018</div>
+                                <div class="bottomleft">26 December 2017</div>
                             </div>
                             <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                 <h5 class="card-title">When you wish for more, Mercy wishes for the less you think you do not have</h5>
@@ -120,10 +128,10 @@
                         <div class="card" style="border-radius:0px; border:0px;">
                             <div class="img-container">
                                 <img class="card-img-top" src="img/news/4.psd THE DISABLED OF LUNZU MANESI KAPEN2.jpg" alt="News Image" style="border-radius:0px;">
-                                <div class="bottomleft">6 May 2018</div>
+                                <div class="bottomleft">26 December 2017</div>
                             </div>
                             <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
-                                <h5 class="card-title">The disabled at Lunzu Manesi Kapeni</h5>
+                                <h5 class="card-title">FOHOP want to reach to every member of the society including the disabled at Lunzu Manesi Kapeni</h5>
                                 <a href="#" class="card-link">learn more</a>
                             </div>
                         </div>
@@ -132,10 +140,10 @@
                         <div class="card" style="border-radius:0px; border:0px;">
                             <div class="img-container">
                                 <img class="card-img-top" src="img/news/15.psd guiter maker.jpg" alt="News Image" style="border-radius:0px;">
-                                <div class="bottomleft">2 April 2018</div>
+                                <div class="bottomleft">27 December 2017</div>
                             </div>
                             <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
-                                <h5 class="card-title">Using local materials to change life.</h5>
+                                <h5 class="card-title">Using indeginous knowledge and local materials to change economic living standards.</h5>
                                 <a href="#" class="card-link">learn more</a>
                             </div>
                         </div>
@@ -144,10 +152,10 @@
                         <div class="card" style="border-radius:0px; border:0px;">
                             <div class="img-container">
                                 <img class="card-img-top" src="img/news/shora k.jpg" alt="News Image" style="border-radius:0px;">
-                                <div class="bottomleft">15 January 2018</div>
+                                <div class="bottomleft">27 December 2018</div>
                             </div>
                             <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
-                                <h5 class="card-title">Small holder farmers happy with the yields they are getting</h5>
+                                <h5 class="card-title">FOHOP has aims of helping Small holder farmers realising their agricultural goals</h5>
                                 <a href="#" class="card-link">learn more</a>
                             </div>
                         </div>
@@ -156,7 +164,7 @@
                         <div class="card" style="border-radius:0px; border:0px;">
                             <div class="img-container">
                                 <img class="card-img-top" src="img/news/mercy.PNG" alt="News Image" style="border-radius:0px;">
-                                <div class="bottomleft">26 July 2018</div>
+                                <div class="bottomleft">26 December 2017</div>
                             </div>
                             <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                 <h5 class="card-title">When you wish for more, Mercy wishes for the less you think you do not have</h5>
@@ -168,7 +176,7 @@
                             <div class="card" style="border-radius:0px; border:0px;">
                                 <div class="img-container">
                                     <img class="card-img-top" src="img/news/mercy.PNG" alt="News Image" style="border-radius:0px;">
-                                    <div class="bottomleft">26 July 2018</div>
+                                    <div class="bottomleft">26 December 2017</div>
                                 </div>
                                 <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                     <h5 class="card-title">When you wish for more, Mercy wishes for the less you think you do not have</h5>
@@ -180,7 +188,7 @@
                             <div class="card" style="border-radius:0px; border:0px;">
                                 <div class="img-container">
                                     <img class="card-img-top" src="img/news/4.psd THE DISABLED OF LUNZU MANESI KAPEN2.jpg" alt="News Image" style="border-radius:0px;">
-                                    <div class="bottomleft">6 May 2018</div>
+                                    <div class="bottomleft">26 December 2017</div>
                                 </div>
                                 <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                     <h5 class="card-title">The disabled at Lunzu Manesi Kapeni</h5>
@@ -192,7 +200,7 @@
                             <div class="card" style="border-radius:0px; border:0px;">
                                 <div class="img-container">
                                     <img class="card-img-top" src="img/news/15.psd guiter maker.jpg" alt="News Image" style="border-radius:0px;">
-                                    <div class="bottomleft">2 April 2018</div>
+                                    <div class="bottomleft">27 December 2017</div>
                                 </div>
                                 <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                     <h5 class="card-title">Using local materials to change life.</h5>
@@ -204,7 +212,7 @@
                             <div class="card" style="border-radius:0px; border:0px;">
                                 <div class="img-container">
                                     <img class="card-img-top" src="img/news/shora k.jpg" alt="News Image" style="border-radius:0px;">
-                                    <div class="bottomleft">15 January 2018</div>
+                                    <div class="bottomleft">27 December 2017</div>
                                 </div>
                                 <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                     <h5 class="card-title">Small holder farmers happy with the yields they are getting</h5>
@@ -216,7 +224,7 @@
                             <div class="card" style="border-radius:0px; border:0px;">
                                 <div class="img-container">
                                     <img class="card-img-top" src="img/news/mercy.PNG" alt="News Image" style="border-radius:0px;">
-                                    <div class="bottomleft">26 July 2018</div>
+                                    <div class="bottomleft">26 December 2017</div>
                                 </div>
                                 <div class="card-body" style="margin-left: 0px; padding-left: 2px;">
                                     <h5 class="card-title">When you wish for more, Mercy wishes for the less you think you do not have</h5>
