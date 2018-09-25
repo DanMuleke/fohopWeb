@@ -2,7 +2,7 @@
     require("header.php");
 ?>
 
-<div style="margin:110px 0px 20px 0px; background-color:#999999; background-image: url('img/galley/3.jpg');">
+<div style="margin:110px 0px 20px 0px; background-color:#999999; background-image: url('img/icons/bg1.jpg');">
     <div class="container">
         <h1 style="color:azure; font-size:60px;">Organisation Structure</h1>
     </div>

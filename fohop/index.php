@@ -78,21 +78,19 @@
         <div class="programs">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-4">
                         <h1>Our Programs</h1>
                         <div id="pointer"></div>
                     </div>
-                    <div class="col-sm-7" style="padding-left:5%">
-                        <ul class="programs-list" style="list-style-image: url('img/icons/icons8-checkmark-48.png')">
-                            <li style="padding: 3%;"><a href="#">Capacity building and good governance </a></li>
-                            <li style="padding: 3%;"><a href="#">Hiv and Aids</a></li>
-                            <li style="padding: 3%;"><a href="#">Education,Child right and Ending early child marriage</a></li>
-                            <li style="padding: 3%;"><a href="#">Women and Girls Empowernment</a></li>
-                            <li style="padding: 3%;"><a href="#">Youths Empowernment and Entreprenuership</a></li>
-                            <li style="padding: 3%;"><a href="#">Entreprenuership</a></li>
-                            <li style="padding: 3%;"><a href="#">food security and nutrition</a></li>
-                            <li style="padding: 3%;"><a href="#">Climate change and environment conservation</a></li>
-                            <li style="padding: 3%;"><a href="#">Water, Sanitation and hygien </a></li>
+                    <div class="col-sm-8" style="padding-left:5%">
+                        <ul class="programs-list" style="list-style-image: url('img/icons/pointer.png')">
+                            <li style="padding-bottom:10px;"><a href="#">Capacity building and good governance </a></li>
+                            <li ><a href="#">Hiv and Aids</a></li>
+                            <li ><a href="#">Entreprenuership</a></li>
+                            <li ><a href="#">Women, Girls and Youths Empowernment</a></li>
+                            <li ><a href="#">food security and nutrition</a></li>
+                            <li ><a href="#">Climate change and environment conservation</a></li>
+                            <li ><a href="#">Water, Sanitation and hygien </a></li>
                                                         
                         </ul>
                     </div>
